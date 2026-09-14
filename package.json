@@ -1,0 +1,30 @@
+{
+  "name": "api-collector",
+  "version": "1.23.12",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "bash scripts/increment-version.sh && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1079.0",
+    "axios": "^1.18.1",
+    "date-fns": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "mqtt": "^5.15.1",
+    "next": "^16.2.10",
+    "prismjs": "^1.30.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-simple-code-editor": "^0.14.1",
+    "recharts": "^3.9.1",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0"
+  }
+}
