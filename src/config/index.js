@@ -21,10 +21,6 @@ function parseIdList(value) {
 export const config = {
   port: parseNumber(process.env.PORT, 3000),
   ssoEnabled: false,
-  zabbixUrl: process.env.ZABBIX_URL || 'http://192.168.88.245:8082/api_jsonrpc.php',
-  zabbixUser: process.env.ZABBIX_USER || process.env.ZABBIX_LOGIN || 'api2',
-  zabbixPassword: process.env.ZABBIX_PASSWORD || process.env.ZABBIX_PASS || 'Y3XrhRrZWDkeTeFF',
-  zabbixToken: process.env.ZABBIX_TOKEN || '',
   appLogin: 'api_voice',
   appPass: 'api_voice123',
   defaultMediaTypeId: parseNumber(process.env.CALL_MEDIA_TYPE_ID, 5),

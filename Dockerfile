@@ -1,6 +1,6 @@
 # --- СТАДИЯ 1: Базовый образ ---
 FROM dockerhub.timeweb.cloud/library/node:20-alpine AS base
-RUN apk add --no-cache libc6-compat bash
+RUN apk add --no-cache libc6-compat bash python3 make g++
 WORKDIR /app
 
 # --- СТАДИЯ 2: Установка ВСЕХ зависимостей (Next.js + воркеры) ---
@@ -23,7 +23,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
-# Системные зависимости для шрифтов и работы нативных модулей (sharp/pg)
+# Системные зависимости для шрифтов и работы нативных модулей (sharp)
 RUN apk add --no-cache fontconfig ttf-dejavu nano
 
 
@@ -40,11 +40,11 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 # 2. Копируем исходный package.json в корень
 COPY --chown=nextjs:nodejs package.json ./package.json
 
-# 3. Копируем готовую папку node_modules со всеми зависимостями (включая mqtt, pg, sharp)
+# 3. Копируем готовую папку node_modules со всеми зависимостями (включая mqtt, better-sqlite3, sharp)
 COPY --from=deps --chown=nextjs:nodejs /app/node_modules ./node_modules
 
 
-RUN mkdir -p .next && chown -R nextjs:nodejs .next
+RUN mkdir -p .next data && chown -R nextjs:nodejs .next data
 
 USER nextjs
 

@@ -8,10 +8,6 @@ services:
     environment:
       PORT: "3000"
       NODE_ENV: "development"
-      ZABBIX_URL: "${ZABBIX_URL}"
-      ZABBIX_TOKEN: "${ZABBIX_TOKEN:-}"
-      ZABBIX_LOGIN: "${ZABBIX_LOGIN:-}"
-      ZABBIX_PASS: "${ZABBIX_PASS:-}"
       CALL_MEDIA_TYPE_ID: "${CALL_MEDIA_TYPE_ID:-5}"
       DEFAULT_PAGE_SIZE: "${DEFAULT_PAGE_SIZE:-20}"
       MAX_PAGE_SIZE: "${MAX_PAGE_SIZE:-100}"
@@ -20,16 +16,16 @@ services:
       DEFAULT_MASTER: "${DEFAULT_MASTER:-1}"
       DEFAULT_AREA: "${DEFAULT_AREA:-}"
       DEFAULT_AREAS: "${DEFAULT_AREAS:-}"
-      S3_URL: "${S3_URL}"
-      S3_ACCESS_KEY: "${S3_ACCESS_KEY}"
-      S3_SECRET_KEY: "${S3_SECRET_KEY}"
-      S3_BUCKET: "${S3_BUCKET}"
+      DB_PATH: "/app/data/voice_alert.db"
+
     user: root
     restart: unless-stopped
     volumes:
       - ./workers:/app/workers
       - node_modules_api:/app/node_modules
       - ./public:/app/public
+      - sqldata:/app/data
 
 volumes:
   node_modules_api:
+  sqldata:
