@@ -4,6 +4,9 @@ const nextConfig = {
   allowedDevOrigins: ['sp-map.gk-strategy.ru'],  
   reactStrictMode: true,
   output: 'standalone',
+  experimental: {
+    cpus: 4,
+  },
   async rewrites() {
     return [
       {
