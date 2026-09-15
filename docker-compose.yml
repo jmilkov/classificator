@@ -16,7 +16,6 @@ services:
       DEFAULT_MASTER: "${DEFAULT_MASTER:-1}"
       DEFAULT_AREA: "${DEFAULT_AREA:-}"
       DEFAULT_AREAS: "${DEFAULT_AREAS:-}"
-      DB_PATH: "/app/data/voice_alert.db"
 
     user: root
     restart: unless-stopped
@@ -24,8 +23,6 @@ services:
       - ./workers:/app/workers
       - node_modules_api:/app/node_modules
       - ./public:/app/public
-      - sqldata:/app/data
 
 volumes:
   node_modules_api:
-  sqldata:

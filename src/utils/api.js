@@ -44,22 +44,3 @@ export function updateConfig(data) {
     body: JSON.stringify(data)
   })
 }
-
-export function fetchStats(groupId, params) {
-  const query = new URLSearchParams()
-  Object.entries(params).forEach(([k, v]) => {
-    if (v !== undefined && v !== null && v !== '') query.set(k, String(v))
-  })
-  return requestJson(`/api/v1/groups/${groupId}/stats?${query}`)
-}
-
-export function fetchAlerts(groupId, params) {
-  const query = new URLSearchParams()
-  Object.entries(params).forEach(([key, value]) => {
-    if (value !== undefined && value !== null && value !== '') {
-      query.set(key, String(value))
-    }
-  })
-
-  return requestJson(`/api/v1/groups/${groupId}/alerts?${query.toString()}`)
-}

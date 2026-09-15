@@ -5,7 +5,7 @@ export default function LoginScreen({ loginValue, password, error, loading, onLo
     <main className="auth-page">
       <section className="auth-card">
         <div className="auth-head">
-          <h1 className="title">СПК коллектор сбора данных</h1>
+          <h1 className="title">Classificator — Классификатор метрик и приборов</h1>
           <p className="subtitle">Введите логин и пароль для входа в приложение</p>
         </div>
         <form className="auth-form" onSubmit={onSubmit}>

@@ -2,8 +2,8 @@ import "./globals.css";
 import DashboardLayout from "@/components/DashboardLayout";
 
 export const metadata = {
-  title: "СПК коллектор сбора данных",
-  description: "Приложение для просмотра журнала звонков голосовых оповещений Zabbix",
+  title: "Classificator",
+  description: "Приложение для планирования метрик приборов",
 };
 
 export default function RootLayout({ children }) {
