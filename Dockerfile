@@ -1,5 +1,5 @@
 # --- СТАДИЯ 1: Базовый образ ---
-FROM dockerhub.timeweb.cloud/library/node:20-alpine AS base
+FROM node:20-alpine AS base
 RUN apk add --no-cache bash make g++
 WORKDIR /app
 
@@ -17,7 +17,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
 # --- СТАДИЯ 4: Финальный продакшн образ ---
-FROM dockerhub.timeweb.cloud/library/node:20-alpine AS runner
+FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
