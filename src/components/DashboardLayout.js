@@ -6,7 +6,7 @@ import LoginScreen from '@/components/LoginScreen';
 import SlideMenuBar from '@/components/SlideMenuBar';
 import { usePathname, useRouter } from 'next/navigation';
 
-const APP_VERSION = 'v1.23.12';
+const APP_VERSION = 'v1.23.13';
 
 export default function DashboardLayout({ children }) {
   const [authChecked, setAuthChecked] = useState(false);

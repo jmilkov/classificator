@@ -9,4 +9,3 @@ npm version $NEW_VERSION --no-git-tag-version
 
 # Replace APP_VERSION in source files
 sed -i "s/const APP_VERSION = 'v.*';/const APP_VERSION = 'v$NEW_VERSION';/" src/components/DashboardLayout.js
-sed -i "s/const APP_VERSION = 'v.*';/const APP_VERSION = 'v$NEW_VERSION';/" src/app/settings/page.js
