@@ -1,0 +1,383 @@
+[
+  {
+    "id": "1783767772424",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783768108703",
+    "prefix": "sys_temp",
+    "oldPrefix": "g_t",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783767862382",
+    "name": "gas",
+    "categoryId": "1783767443537",
+    "description": "",
+    "measurementId": "1783768215747",
+    "prefix": "gas_ch4_ppm",
+    "oldPrefix": "gas_ch4",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783797891734",
+    "name": "Сенсор 1",
+    "categoryId": "1783769182068",
+    "measurementId": "1783797953548",
+    "description": "",
+    "prefix": "cond_lev",
+    "metricNumber": 1,
+    "oldPrefix": "l13"
+  },
+  {
+    "id": "1783798149600",
+    "name": "Сенсор 2",
+    "categoryId": "1783769182068",
+    "measurementId": "1783797953548",
+    "description": "",
+    "prefix": "cond_lev",
+    "metricNumber": 2,
+    "oldPrefix": "l12"
+  },
+  {
+    "id": "1783798173496",
+    "name": "Сенсор 3",
+    "categoryId": "1783769182068",
+    "measurementId": "1783797953548",
+    "description": "",
+    "prefix": "cond_lev",
+    "metricNumber": 3,
+    "oldPrefix": "l3"
+  },
+  {
+    "id": "1783801314828",
+    "name": "Радарный датчик ",
+    "categoryId": "1783801269712",
+    "measurementId": "1783797953548",
+    "description": "",
+    "prefix": "radar_lev",
+    "metricNumber": 0,
+    "oldPrefix": "uv"
+  },
+  {
+    "id": "1783802191632",
+    "categoryId": "1783768495553",
+    "measurementId": "1783768108703",
+    "description": "",
+    "prefix": "gsm_temp",
+    "metricNumber": 0,
+    "oldPrefix": "g_t"
+  },
+  {
+    "id": "1783802820783",
+    "categoryId": "1783802800964",
+    "measurementId": "1783802759542",
+    "description": "Напряжение на солнечной панели",
+    "prefix": "solar_volt",
+    "metricNumber": 0,
+    "oldPrefix": "g_sol"
+  },
+  {
+    "id": "1783802908238",
+    "categoryId": "1783802881161",
+    "measurementId": "1783768108703",
+    "description": "",
+    "prefix": "battery_temp",
+    "metricNumber": 0,
+    "oldPrefix": "g_t"
+  },
+  {
+    "id": "1783802925014",
+    "categoryId": "1783802881161",
+    "measurementId": "1783802759542",
+    "description": "",
+    "prefix": "battery_volt",
+    "metricNumber": 0,
+    "oldPrefix": "g_v"
+  },
+  {
+    "id": "1783803240816",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783803103778",
+    "prefix": "sys_boot",
+    "metricNumber": 0,
+    "oldPrefix": "g_boot"
+  },
+  {
+    "id": "1783803266339",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783803139645",
+    "prefix": "sys_tz",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783803281372",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783803164911",
+    "prefix": "sys_timestamp",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783803324391",
+    "name": "gas",
+    "categoryId": "1783767443537",
+    "description": "",
+    "measurementId": "1783802646436",
+    "prefix": "gas_co2_ppm",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783803619048",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803058159",
+    "description": "",
+    "prefix": "gsm_error",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783803685927",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803668082",
+    "description": "",
+    "prefix": "gsm_signal",
+    "metricNumber": 0,
+    "oldPrefix": "g_s"
+  },
+  {
+    "id": "1783803909920",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803814360",
+    "description": "",
+    "prefix": "gsm_lat",
+    "metricNumber": 0,
+    "oldPrefix": "gps_gsm01/gps_gsm_lat"
+  },
+  {
+    "id": "1783803915319",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803835838",
+    "description": "",
+    "prefix": "gsm_lon",
+    "metricNumber": 0,
+    "oldPrefix": "gps_gsm01/gps_gsm_lon"
+  },
+  {
+    "id": "1783803922559",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803761943",
+    "description": "",
+    "prefix": "gsm_good",
+    "metricNumber": 0,
+    "oldPrefix": "g_good"
+  },
+  {
+    "id": "1783803926687",
+    "categoryId": "1783768495553",
+    "measurementId": "1783803790850",
+    "description": "",
+    "prefix": "gsm_bad",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783803943470",
+    "categoryId": "1783768495553",
+    "measurementId": "1783802759542",
+    "description": "",
+    "prefix": "gsm_volt",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804328316",
+    "categoryId": "1783768495553",
+    "measurementId": "1783804152349",
+    "description": "",
+    "prefix": "gsm_ccid",
+    "metricNumber": 0,
+    "oldPrefix": "gsm_ccid/ccid"
+  },
+  {
+    "id": "1783804336163",
+    "categoryId": "1783768495553",
+    "measurementId": "1783804203691",
+    "description": "",
+    "prefix": "gsm_ssid",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804342692",
+    "categoryId": "1783768495553",
+    "measurementId": "1783804218329",
+    "description": "",
+    "prefix": "gsm_pass",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804392931",
+    "categoryId": "1783768495553",
+    "measurementId": "1783804379338",
+    "description": "",
+    "prefix": "gsm_apn",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804418644",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783804087437",
+    "prefix": "sys_hw",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804424076",
+    "name": "g_t",
+    "categoryId": "1783767518411",
+    "description": "",
+    "measurementId": "1783804111451",
+    "prefix": "sys_fw",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804713795",
+    "name": "Сенсор 3",
+    "categoryId": "1783769182068",
+    "measurementId": "1783804683096",
+    "description": "",
+    "prefix": "cond_lmax",
+    "metricNumber": 0,
+    "oldPrefix": "lmax"
+  },
+  {
+    "id": "1783804718313",
+    "name": "Сенсор 3",
+    "categoryId": "1783769182068",
+    "measurementId": "1783804695439",
+    "description": "",
+    "prefix": "cond_lmin",
+    "metricNumber": 0,
+    "oldPrefix": "lmin"
+  },
+  {
+    "id": "1783804846277",
+    "name": "gas",
+    "categoryId": "1783767443537",
+    "description": "",
+    "measurementId": "1783803058159",
+    "prefix": "gas_error",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804858189",
+    "name": "gas",
+    "categoryId": "1783767443537",
+    "description": "",
+    "measurementId": "1783768108703",
+    "prefix": "gas_temp",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783804865701",
+    "name": "gas",
+    "categoryId": "1783767443537",
+    "description": "",
+    "measurementId": "1783802502571",
+    "prefix": "gas_humi",
+    "metricNumber": 0
+  },
+  {
+    "id": "1783950955624",
+    "categoryId": "1783768495553",
+    "measurementId": "1783950931916",
+    "description": "",
+    "prefix": "gsm_type",
+    "metricNumber": 0,
+    "oldPrefix": "g_tlink"
+  },
+  {
+    "id": "1783951213760",
+    "categoryId": "1783768495553",
+    "measurementId": "1783951175736",
+    "description": "",
+    "prefix": "gsm_total",
+    "metricNumber": 0,
+    "oldPrefix": "g_total"
+  },
+  {
+    "id": "1783951631977",
+    "categoryId": "1783951607945",
+    "measurementId": "1783803814360",
+    "description": "",
+    "prefix": "gps_lat",
+    "metricNumber": 0,
+    "oldPrefix": "gps01/gps_lat"
+  },
+  {
+    "id": "1783951641665",
+    "categoryId": "1783951607945",
+    "measurementId": "1783803835838",
+    "description": "",
+    "prefix": "gps_lon",
+    "metricNumber": 0,
+    "oldPrefix": "gps01/gps_lon"
+  },
+  {
+    "id": "1783951967442",
+    "categoryId": "1783951607945",
+    "measurementId": "1783951896076",
+    "description": "",
+    "prefix": "gps_eval",
+    "metricNumber": 0,
+    "oldPrefix": "gps01/gps_alt"
+  },
+  {
+    "id": "1783952222216",
+    "categoryId": "1783951607945",
+    "measurementId": "1783952084334",
+    "description": "",
+    "prefix": "gps_vdop",
+    "metricNumber": 0,
+    "oldPrefix": "gps_vdop"
+  },
+  {
+    "id": "1783952234336",
+    "categoryId": "1783951607945",
+    "measurementId": "1783952097593",
+    "description": "",
+    "prefix": "gps_hdop",
+    "metricNumber": 0,
+    "oldPrefix": "gps_hdop"
+  },
+  {
+    "id": "1783952249365",
+    "categoryId": "1783951607945",
+    "measurementId": "1783952158212",
+    "description": "",
+    "prefix": "gps_pdop",
+    "metricNumber": 0,
+    "oldPrefix": "gps_pdop"
+  },
+  {
+    "id": "1783952315726",
+    "categoryId": "1783951607945",
+    "measurementId": "1783803164911",
+    "description": "",
+    "prefix": "gps_timestamp",
+    "metricNumber": 0,
+    "oldPrefix": "gps01/gps_time"
+  },
+  {
+    "id": "1783952613293",
+    "categoryId": "1783768495553",
+    "measurementId": "1783952590132",
+    "description": "",
+    "prefix": "gsm_accuracy",
+    "metricNumber": 0,
+    "oldPrefix": "gps_gsm_accuracy"
+  }
+]
