@@ -10,25 +10,8 @@
     "description": "",
     "categoryId": "1783767443537",
     "schemaImage": "/uploads/connected-sensors/1789388366587-capture__2_.jpeg",
-    "manualPdf": [
-      {
-        "url": "/uploads/connected-sensors/1789389430568-___________1928.pdf",
-        "filename": "1789389430568-___________1928.pdf",
-        "uploadedAt": "2026-09-14T12:37:10.569Z"
-      },
-      {
-        "url": "/uploads/connected-sensors/1789389443882-content__com.android.providers.media.documents_document_document_3A16316.pdf",
-        "filename": "1789389443882-content__com.android.providers.media.documents_document_document_3A16316.pdf",
-        "uploadedAt": "2026-09-14T12:37:23.883Z"
-      }
-    ],
-    "schemaImages": [
-      {
-        "url": "/uploads/connected-sensors/1789390218490-capture__4_.jpeg",
-        "filename": "1789390218490-capture__4_.jpeg",
-        "uploadedAt": "2026-09-14T12:50:18.491Z"
-      }
-    ]
+    "manualPdf": [],
+    "schemaImages": []
   },
   {
     "id": "1783801948878",
@@ -42,8 +25,21 @@
     ],
     "description": "Кондуктометрический датчик",
     "categoryId": "1783769182068",
-    "manualPdf": [],
-    "schemaImage": "/uploads/connected-sensors/1789390128281-capture__2_.jpeg"
+    "manualPdf": [
+      {
+        "url": "/uploads/connected-sensors/1789469009994-___________1928.pdf",
+        "filename": "1789469009994-___________1928.pdf",
+        "uploadedAt": "2026-09-15T10:43:29.995Z"
+      }
+    ],
+    "schemaImage": "/uploads/connected-sensors/1789390128281-capture__2_.jpeg",
+    "schemaImages": [
+      {
+        "url": "/uploads/connected-sensors/1789468996430-c7bb8716-80af-4ed0-a89c-da5d7c3c6fac.jpeg",
+        "filename": "1789468996430-c7bb8716-80af-4ed0-a89c-da5d7c3c6fac.jpeg",
+        "uploadedAt": "2026-09-15T10:43:16.431Z"
+      }
+    ]
   },
   {
     "id": "1783802175046",
@@ -136,6 +132,14 @@
       "1783767862382"
     ],
     "description": "",
-    "categoryId": "1783767443537"
+    "categoryId": "1783767443537",
+    "schemaImages": [],
+    "manualPdf": [
+      {
+        "url": "/uploads/connected-sensors/1789469025962-content__com.android.providers.media.documents_document_document_3A16316.pdf",
+        "filename": "1789469025962-content__com.android.providers.media.documents_document_document_3A16316.pdf",
+        "uploadedAt": "2026-09-15T10:43:45.963Z"
+      }
+    ]
   }
 ]

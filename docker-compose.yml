@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "3082:3000"
+    expose:
+      - "3000"
     environment:
       PORT: "3000"
       NODE_ENV: "development"
@@ -23,6 +23,19 @@ services:
       - ./workers:/app/workers
       - node_modules_api:/app/node_modules
       - ./public:/app/public
+      - uploads_data:/app/public/uploads
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "3082:80"
+    restart: unless-stopped
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - uploads_data:/app/public/uploads
+    depends_on:
+      - api
 
 volumes:
   node_modules_api:
+  uploads_data:
